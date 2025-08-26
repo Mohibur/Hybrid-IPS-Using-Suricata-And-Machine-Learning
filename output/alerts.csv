@@ -1,0 +1,8 @@
+timestamp,event_type,src_ip,dst_ip,url_or_signature,prediction,blocked
+2025-08-21T01:47:56.103862+0530,http,192.168.100.2,192.168.100.1,/DVWA/vulnerabilities/sqli/?id=sqli&Submit=Submit&user_token=c96231cad5f8475dc00097a3709179d0,SQLI,YES
+2025-08-21T01:48:48.194258+0530,http,192.168.100.2,192.168.100.1,/DVWA/vulnerabilities/xss_r/?name=xss&user_token=f202e9eeef823b7ae4176a660677d661,XSS,YES
+2025-08-21T01:49:11.265934+0530,http,192.168.100.2,192.168.100.1,/DVWA/vulnerabilities/sqli/,SQLI,YES
+2025-08-22T09:09:54.429743+0530,http,192.168.100.2,192.168.100.1,/DVWA/vulnerabilities/xss_r/?name=%3Cscript%3EXss%3C%2Fscript%3E&user_token=3d54d95b5014dbca6e4ad32f8f210a79,XSS,YES
+2025-08-22T09:13:25.436096+0530,http,192.168.100.2,192.168.100.1,/DVWA/vulnerabilities/sqli/,SQLI,YES
+2025-08-22T09:30:11.485973+0530,http,192.168.100.2,192.168.100.1,/DVWA/vulnerabilities/xss_r/?name=%3Cscript%3EXss%3C%2Fscript%3E&user_token=6685e2812a8cdbdbd3c53dc5354505c1,XSS,YES
+2025-08-22T11:42:28.911644+0530,http,192.168.100.2,192.168.100.1,/DVWA/vulnerabilities/xss_r/?name=%3Cscript%3EXss%3C%2Fscript%3E&user_token=14f4f56d4d006fd4465520349f57e23a,XSS,YES
